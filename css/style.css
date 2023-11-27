@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=PT+Serif&display=swap');
+
+:root{
+    --color_pizdec_red: #DD2211;
+    --color_suka_red: #C62314;
+    --color_tanos_fiolet: #130E27;
+    --color_negr_dark: #161616;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 190px 0;
+}
+
+p{
+    font-family: 'PT Serif', serif;;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 30px;
+}
+
+li > a{
+    color: #fff;
+    padding: 6px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+nav a:hover{
+    background-color: var(--color_tanos_fiolet);
+}
+
+h1{
+    color: var(--color_tanos_fiolet);
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 82px;
+    width: 533px;
+    padding-top: 60px;
+}
+
+.car{
+    color: #fff;
+}
+
+.header_text > p{
+    color: #fff;
+    width: 494px;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 50px 0 180px 0;
+}
+
+main h2{
+    font-size: 50px;
+}
+
+.our_text{
+    color: var(--color_suka_red);
+    font-weight: 700;
+}
+
+main .container{
+    padding-bottom: 70px;
+}
+
+.main_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding-top: 82px;
+}
+
+.item_sevices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text_item{
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    padding-top: 37px;
+}
+
+.text_item3{
+    padding-top: 20px;
+}
+
+.text_item4{
+    padding-top: 25px;
+}
+
+.content{
+    background-color: var(--color_tanos_fiolet);
+}
+
+.story{
+    display: flex;
+    text-align: start;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 34px;
+}
+
+.story p{
+    width: 600px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.btn_story{
+    background-color: var(--color_suka_red);
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 19px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.btn_story:hover{
+    background-color: #a81508;
+}
+
+
+.pricing{
+    background-color: #EFEFEF;
+}
+
+.pricing_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0 70px 0;
+}
+
+.pricing_list > .text_pricing{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.pricing_items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    width: 340px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.name_price{
+    font-size: 22px;
+    color: var(--color_negr_dark);
+    padding: 35px 0 40px 0;
+}
+
+.price{
+    font-size: 50px;
+    color: var(--color_suka_red);
+    padding-bottom: 30px;
+}
+
+.price_ul{
+    display: flex;
+    flex-direction: column;
+    font-family: PT Serif;
+    gap: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn_price{
+    width: 205px;
+    background-color: var(--color_tanos_fiolet);
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    padding: 11px 81px;
+    border-radius: 5px;
+    margin-bottom: 36px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.btn_price:hover{
+    background-color: #29214d;
+}
+
+.btn_business{
+    background-color: var(--color_suka_red);
+    padding: 11px 55px;
+}
+
+.btn_business:hover{
+    background-color: #b41b0d;
+}
+
+.btn_prof{
+    padding: 11px 55px;
+}
+
+
+footer{
+    background-color: var(--color_tanos_fiolet);
+}
+
+footer > .container{
+    padding: 80px 180px;
+}
+
+.info_site{
+    padding-right: 200px;
+}
+
+.info_site > p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.info_site > p > span{
+    color: var(--color_suka_red);
+}
